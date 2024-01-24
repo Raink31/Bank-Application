@@ -31,7 +31,7 @@ public abstract class BaseFrame extends JFrame {
         addGuiComponents();
     }
 
-    // THis method needs to be defined by subclasses when it is being inherited from
+    // This method needs to be defined by subclasses when it is being inherited from
     protected abstract void addGuiComponents();
 
 }
