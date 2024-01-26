@@ -1,10 +1,20 @@
 package org.karmelcafe.bankingapp.guis;
 
+import org.karmelcafe.bankingapp.db_objs.User;
+
 import javax.swing.*;
 
 public abstract class BaseFrame extends JFrame {
+    // Store user information
+    protected User user;
 
     public BaseFrame(String title){
+        initialize(title);
+    }
+    public BaseFrame(String title, User user) {
+        // Initialize user
+        this.user = user;
+
         initialize(title);
     }
 
