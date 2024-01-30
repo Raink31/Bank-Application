@@ -1,1 +1,1 @@
-Informations coming later
+Informations coming later.
